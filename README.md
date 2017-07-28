@@ -2,9 +2,10 @@
 
 How to install
 
-npm install
+>npm install
 
-gulp copy
+>gulp copy
 
-gulp dev
+run with
+> gulp dev
 
