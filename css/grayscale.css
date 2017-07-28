@@ -199,13 +199,18 @@ a {
     -transform: scale(1.1); }
   /*Responsive Video*/
   .responsive-video {
-    height: 0;
-    padding-top: 1px;
     position: relative;
+    height: 0;
+    width: 80%;
+    max-width: 853px;
+    margin: 0 10%;
+    padding-top: 1px;
     padding-bottom: 56.25%;
     /*16:9*/
     margin-top: 50px; }
-  .responsive-video iframe {
+  .responsive-video iframe,
+  .responsive-video object,
+  .responsive-video embed {
     top: 30px;
     left: 0;
     width: 100%;
